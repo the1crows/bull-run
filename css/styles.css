@@ -201,7 +201,7 @@ canvas {
 }
 
 .-green {
-  color: #14F195;
+  color: #ed14f1;
   font-weight: 900;
 }
 
@@ -292,7 +292,7 @@ canvas {
   border-top: 2px solid #9945FF;
   border-left: 2px solid #9945FF;
   border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
+  border-bottom: 0.5rem solid #f20acf;
   border-radius: 3rem;
   text-align: center;
 }
@@ -362,7 +362,7 @@ h1 {
   font-size: 4rem;
   margin: 10px 0;
   text-shadow: 2px 2px black;
-  color: #14F195;
+  color: #ed09ac;
   text-align: center; /* Center the h1 at the top */
 }
 
