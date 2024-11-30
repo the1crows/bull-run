@@ -1069,3 +1069,19 @@ footer {
     font-size: 2.5rem; /* Smaller font size */
   }
 }
+
+.last-tweet {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.last-tweet h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.twitter-timeline {
+  width: 100%;
+}
