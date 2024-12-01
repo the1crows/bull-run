@@ -1069,3 +1069,39 @@ footer {
     font-size: 2.5rem; /* Smaller font size */
   }
 }
+
+.tweet-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #000;
+  border-radius: 15px; /* Updated border-radius */
+  border-top: 2px solid #9945FF;
+  border-left: 2px solid #9945FF;
+  border-right: 2px solid #9945FF;
+  border-bottom: 0.5rem solid #f902e4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #3c066b; /* Updated text color */
+  text-shadow: 2px 2px black;
+}
+
+.tweet-container h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #3c066b; /* Header color */
+}
+
+.tweet-container .twitter-timeline {
+  border-radius: 12px; /* Add border-radius to the embedded widget */
+}
+
+.tweet-container a {
+  color: #3c066b; /* Link color */
+  text-decoration: none;
+}
+
+.tweet-container a:hover {
+  color: #f708b7; /* Hover effect for links */
+}
