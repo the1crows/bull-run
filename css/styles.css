@@ -1113,7 +1113,7 @@ footer {
 /* Container for the carousel */
 .carousel-container {
   width: 100%;
-  max-width: 600px;
+  max-width: auto;
   margin: auto;
   position: relative;
   overflow: hidden;
@@ -1128,7 +1128,7 @@ footer {
 .carousel-images img {
   width: 100%;
   height: auto;
-  max-width: 600px;
+  max-width: auto;
 }
 
 /* Next and previous buttons */
