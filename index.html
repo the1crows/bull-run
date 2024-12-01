@@ -329,32 +329,20 @@
 <iframe src="https://dexscreener.com/solana/Ec8F73DenXU7pYr5B1CB6F9NiMBnsSNExAd3KQZrBEyS?embed=1&theme=dark"></iframe> 
   </div>
 
-<!-- Twitter Embed -->
-<blockquote class="twitter-tweet" id="tweet" data-theme="light">
-  <p lang="en" dir="ltr">Your tweet content goes here</p>
-  &mdash; Beth Smith (@BethSmithCTO) <a href="https://x.com/BethSmithCTO/status/1234567890123456789">November 30, 2024</a>
-</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<!-- Dark Mode Toggle Button -->
-<button id="toggle-dark-mode">Toggle Dark Mode</button>
-
-<script>
-  document.getElementById('toggle-dark-mode').addEventListener('click', function () {
-    const tweetBlock = document.getElementById('tweet');
-    const currentTheme = tweetBlock.getAttribute('data-theme');
-
-    // Toggle between light and dark
-    if (currentTheme === 'light') {
-      tweetBlock.setAttribute('data-theme', 'dark');
-    } else {
-      tweetBlock.setAttribute('data-theme', 'light');
-    }
-
-    // Reload Twitter widget to apply the theme change
-    twttr.widgets.load();
-  });
-</script>
+  <section id="last-tweet">
+    <div class="tweet-container" data-aos="fade-up" data-aos-duration="1200">
+      <h2>Latest Tweet</h2>
+      <!-- Embedded Twitter Widget -->
+      <a class="twitter-timeline" 
+         data-width="500"
+         data-height="400"
+         data-theme="light" 
+         href="https://twitter.com/BethSmithCTO?ref_src=twsrc%5Etfw">
+         Tweets by BethSmithCTO
+      </a> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </section>
 
 
 <section class="gif-section">
