@@ -36,7 +36,7 @@ canvas {
   gap: 1.5rem;
   align-items: center;
   justify-content: center;
-  color: #f91a1a;
+  color: #0373fb;
 }
 
 /* Add any additional styles here */
@@ -56,7 +56,7 @@ canvas {
 
 @keyframes blink-caret {
   from, to { border-color: transparent; }
-  50% { border-color: #f902e4; }
+  50% { border-color: #0373fb; }
 }
 
 /* Add CSS for mobile responsiveness */
@@ -78,7 +78,7 @@ canvas {
 .line-box .line {
   height: 20px;
   border-radius: 20px;
-  background: #fb0303 ;
+  background: #0373fb ;
   animation: loading 2.5s forwards cubic-bezier(0,0,0,0);
 }
 
@@ -158,7 +158,7 @@ canvas {
 }
 
 .marquee {
-  color: #fd3e29;
+  color: #0373fb;
   text-shadow: 2px 2px black;
   font-size: var(--step-0);
   height: calc(170px + 4rem);
@@ -201,7 +201,7 @@ canvas {
 }
 
 .-green {
-  color: #f11b14;
+  color: #0373fb;
   font-weight: 900;
 }
 
@@ -254,7 +254,7 @@ canvas {
 .logo span {
   font-size: 2.4rem;
   font-weight: bold;
-  color: #f90202;
+  color: #0373fb;
   text-shadow: 2px 2px black;
 }
 
@@ -273,7 +273,7 @@ canvas {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: bold;
-  color: #f90a02;
+  color: #0373fb;
   text-shadow: 2px 2px black;
 }
 
@@ -289,16 +289,16 @@ canvas {
   padding: 10px 20px;
   margin: 0 5px;
   border-radius: 20px;
-  border-top: 2px solid #f9706d;
-  border-left: 2px solid #f9706d;
-  border-right: 2px solid #f9706d;
-  border-bottom: 0.5rem solid #ff0505;
+  border-top: 2px solid #2a87f8;
+  border-left: 2px solid #2a87f8;
+  border-right: 2px solid #2a87f8;
+  border-bottom: 0.5rem solid #0373fb;
   border-radius: 3rem;
   text-align: center;
 }
 
 .nav-buttons .get-pepasol {
-  color: #f90602;
+  color: #0373fb;
   text-shadow: 2px 2px black;
 }
 
@@ -362,7 +362,7 @@ h1 {
   font-size: 4rem;
   margin: 10px 0;
   text-shadow: 2px 2px black;
-  color: #ff2600;
+  color: #0373fb;
   text-align: center; /* Center the h1 at the top */
 }
 
@@ -370,7 +370,7 @@ h1 {
 p {
   font-size: 1.2rem;
   margin: 5px 0;
-  color: #f80101;
+  color: #0373fb;
   font-family: "roboto", sans-serif;
 }
 
@@ -389,10 +389,10 @@ p {
   padding: 20px;
   width: 160px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-top: 2px solid #f9706d;
-  border-left: 2px solid #f9706d;
-  border-right: 2px solid #f9706d;
-  border-bottom: 0.5rem solid #f90602;
+  border-top: 2px solid #2a87f8;
+  border-left: 2px solid #2a87f8;
+  border-right: 2px solid #2a87f8;
+  border-bottom: 0.5rem solid #0373fb;
   border-radius: 3rem;
   text-align: center;
   margin-bottom: 10px;
@@ -433,7 +433,7 @@ p {
 /* Header styles */
 .header-section h1 {
   font-size: 4rem;
-  color: #f90e02;
+  color: #0373fb;
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
 }
@@ -442,10 +442,10 @@ p {
 .content-section {
   padding: 20px;
   border-radius: 15px;
-  border-top: 2px solid #f9706d;
-  border-left: 2px solid #f9706d;
-  border-right: 2px solid #f9706d;
-  border-bottom: 0.5rem solid #f91702;
+  border-top: 2px solid #2a87f8;
+  border-left: 2px solid #2a87f8;
+  border-right: 2px solid #2a87f8;
+  border-bottom: 0.5rem solid #0373fb;
   text-align: left;
 }
 
@@ -522,14 +522,14 @@ p {
 }
 
 .shimmer::before {
-  box-shadow: 0 0 3px 2px rgba(246, 29, 10, 0.6), /* Adjusted for #9945FF */
-    0 0 7px 4px rgba(246, 29, 10, 0.6), /* Adjusted for #9945FF */
-    0 0 7px 4px rgba(246, 29, 10, 0.6); /* Adjusted for #9945FF */
+  box-shadow: 0 0 3px 2px rgba(10, 53, 246, 0.6), /* Adjusted for #9945FF */
+    0 0 7px 4px rgba(10, 53, 246, 0.6), /* Adjusted for #9945FF */
+    0 0 7px 4px rgba(10, 53, 246, 0.6); /* Adjusted for #9945FF */
   z-index: -1;
 }
 
 .shimmer::after {
-  box-shadow: inset 0 0 7px 4px rgba(229, 35, 5, 0.6);
+  box-shadow: inset 0 0 7px 4px rgba(10, 53, 246, 0.6);
   z-index: 2;
 }
 
@@ -583,12 +583,12 @@ p {
     from var(--mask, 0deg),
     transparent 0%,
     transparent 10%,
-    #f9706d 36%, /* Adjusted for #9945FF */
-    #f9706d 45%, /* Adjusted for #9945FF */
+    #0373fb 36%, /* Adjusted for #9945FF */
+    #0373fb 45%, /* Adjusted for #9945FF */
     transparent 50%,
     transparent 60%,
-    #f9706d 85%, /* Adjusted for #9945FF */
-    #f9706d 95%, /* Adjusted for #9945FF */
+    #0373fb 85%, /* Adjusted for #9945FF */
+    #0373fb 95%, /* Adjusted for #9945FF */
     transparent 100%
   );
   mask-size: cover;
@@ -613,7 +613,7 @@ p {
 /* Header Area Styles */
 .header-area h1 {
   font-size: 4rem;
-  color: #ff0d0d; /* Warm coral color */
+  color: #0373fb; /* Warm coral color */
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
   text-align: center;
@@ -627,11 +627,11 @@ p {
   text-shadow: 2px 2px black;
   border-bottom-width: 1px; /* Slightly thinner bottom border */
   border-radius: 15px;
-  border-top: 2px solid #f9706d;
-  border-left: 2px solid #f9706d;
-  border-right: 2px solid #f9706d;
-  border-bottom: 0.5rem solid #f91202;
-  color: #f90202;
+  border-top: 2px solid #2183fa;
+  border-left: 2px solid #2183fa;
+  border-right: 2px solid #2183fa;
+  border-bottom: 0.5rem solid #0373fb;
+  color: #0373fb;
 }
 
 /* Content Styles */
@@ -652,11 +652,11 @@ p {
   padding: 10px 20px;
   margin: 20px auto; /* Centers the button and adds vertical margin */
   border-radius: 3rem;
-  border-top: 2px solid #f9706d;
-  border-left: 2px solid #f9706d;
-  border-right: 2px solid #f9706d;
-  border-bottom: 0.5rem solid #f91202;
-  color: #f91202;
+  border-top: 2px solid #2183fa;
+  border-left: 2px solid #2183fa;
+  border-right: 2px solid #2183fa;
+  border-bottom: 0.5rem solid #0373fb;
+  color: #0373fb;
   display: block; /* Ensures the button is a block element */
   text-align: center; /* Centers the text inside the button */
 }
@@ -732,7 +732,7 @@ video {
   /* Header styles */
 .disc-section h1 {
   font-size: 1.8rem;
-  color: #f90202;
+  color: #0373fb;
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
   text-align: center; /* Center the text horizontally */
@@ -776,7 +776,7 @@ footer {
   padding: 20px;
   text-align: center;
   color: #ffffff;
-  border-top: 1px solid #f9706d;
+  border-top: 1px solid #0373fb;
 }
 
 .containerfooter {
@@ -795,7 +795,7 @@ footer {
 }
 
 .column h4 {
-  color: #f90202;
+  color: #0373fb;
   margin-bottom: 15px;
   font-size: 20px;
 }
@@ -817,11 +817,11 @@ footer {
 }
 
 .column ul li a:hover {
-  color: #f9706d;
+  color: #0373fb;
 }
 
 .policy-id {
-  color: #f91202;
+  color: #0373fb;
   margin-top: 10px;
   font-size: 19px;
 }
@@ -831,7 +831,7 @@ footer {
 }
 
 .copyright {
-  color: #f91202;
+  color: #0373fb;
   margin-top: 30px;
   font-size: 19px;
 }
@@ -854,7 +854,7 @@ footer {
 }
 
 .highlight {
-  color: #f92f02; /* Choose a color that you prefer */
+  color: #0373fb; /* Choose a color that you prefer */
 }
 
 
